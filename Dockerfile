@@ -10,4 +10,6 @@ COPY start.sh /
 
 EXPOSE 80
 
+VOLUME /var/www/html
+
 CMD /start.sh
